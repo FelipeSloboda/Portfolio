@@ -3,35 +3,69 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="icon" href="./Imgs/Favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="./Imgs/favicone.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-      <title>Felipe Sloboda</title>
+
+        <title>Felipe Sloboda</title>
 
       <style>
+/* NAV MENU*/
   nav{
     position: absolute;
+    border-bottom: 4px solid #D3D3D3;
+  }
 
+/* HOME */
+  .Home{
+      background-image: url("./Imgs/BackgroundHome.jpg");
+      background-repeat: no-repeat;
+      overflow: hidden;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+}
+  .TituloHome{
+    padding-top: 35%;
+    color: white;
+    text-shadow: 1px 2px 1px BLACK;
+  }
+  .SubtituloHome{
+    color: white;
+  }
+/* SOBRE MIM */
+.SobreMim{
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-size: cover;
+  }
+  .leftProfile, .rightProfile{
+      padding-top: 16%;
   }
   .FotoPerfil{
       width: 60%;
       height: 85%;
+  }
+  .NomeProfile{
+      padding-top: 4%;
   }
   .LinhaProfile{
       background-color: black;
       width: 20%;
       height: 1px;
   }
-  .leftProfile, .rightProfile{
-      padding-top: 6em;
-  }
-  .SobreMim{
+
+  /* TRABALHOS */
+  .Trabalhos{
     width: 100%;
     height: 100%;
     background-color: #DCDCDC;
   }
+
+
+  /* HABILIDADES */
   .Habilidades{
     width: 100%;
-    height: 92%;
   }
   .LinhaHabilidades{
     background-color: black;
@@ -53,6 +87,8 @@
   .RowCards{
     margin-top: 10%;
   }
+
+/* FALE COMIGO */
   .leftFaleComigo{
 
   }
@@ -72,6 +108,8 @@
     height: 1px;
     background-color: white;
   }
+
+  /* RODAPE */
   .Rodape{
     width: 100%;
     height: 6%;
@@ -105,11 +143,11 @@
                                   <a class="nav-link" href="#SobreMim"><i class="fas fa-user-circle"></i> SOBRE MIM</a>
                               </li>
                               <li class="nav-item">
+                                  <a class="nav-link" href="#Trabalhos"><i class="far fa-copy"></i> TRABALHOS</a>
+                              </li>
+                              <li class="nav-item">
                                   <a class="nav-link" href="#Habilidades"><i class="fas fa-award"></i> HABILIDADES</a>
                               </li>
-                          <!--<li class="nav-item">
-                                  <a class="nav-link" href="#"><i class="far fa-copy"></i> TRABALHOS</a>
-                              </li>-->
                               <li class="nav-item navbar-right">
                                   <a class="nav-link" href="#FaleComigo"><i class="far fa-comments"></i> FALE COMIGO</a>
                               </li>
@@ -118,6 +156,19 @@
             </div> <!--Container End-->
       </nav> <!--Nav End-->
 
+<!-- HOME -->
+
+<div class="Home" id="Home">
+  <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <h2 class="text-justify TituloHome">ESTOU SEM CRIATIVIDADE! NÃO SEI OQUE COLOCAR AQUI...</h2>
+          <p class="text-justify SubtituloHome">- Pensando...</p>
+        </div>
+      </div>
+  </div>
+</div>
+
 <!-- SOBRE MIM-->
 <div class="SobreMim" id="SobreMim">
       <div class="container">
@@ -125,12 +176,10 @@
 
             <div class="col-lg-6 col-12 leftProfile" align="center">
                 <img src="https://retalhoclub.com.br/wp-content/uploads/2016/10/mrrobot_s2_cast_rami-malek2.jpg" class="rounded-circle FotoPerfil">
-                <br/><br/><h3>FELIPE SLOBODA</h3>
+                <h3 class="NomeProfile">FELIPE SLOBODA</h3>
             </div>
 
             <div class="col-lg-6 col-12 rightProfile" align="center">
-                <h3>SOBRE MIM</h3>
-                <hr class="LinhaProfile">
 
                   <p class="text-responsive text-justify">&nbsp;&nbsp;&nbsp; Meu nome é Felipe Sloboda,
                   tenho 18 anos, e moro em Campo Largo. Sou recém formado no curso Técnico em Informática
@@ -140,15 +189,25 @@
                   escolhido o curso, foi pela paixão que tenho por Programação. Já possuo um pequeno
                   conhecimento com desenvolvimento nas seguintes linguagens: HTML5, CSS3, JAVASCRIPT, JQUERY, CSHARP.</p>
 
-                <br/><button class="btn btn-secondary">MEU CURRICULUM <i class="fas fa-angle-double-right"></i></button>
+                <br/><button class="btn btn-secondary btnCuriiculum">MEU CURRICULUM <i class="fas fa-angle-double-right"></i></button>
             </div>
         </div> <!--Row End-->
       </div> <!--Container End-->
 </div> <!--Div SobreMim-->
 
+<div class="Trabalhos" id="Trabalhos">
+  <div class="container">
+      <div class="row">
+        <div class="col-12 ">
+          <h2 class=>ESTOU SEM CRIATIVIDADE! NÃO SEI OQUE COLOCAR AQUI...</h2>
+          <p class>- Pensando...</p>
+        </div>
+      </div>
+  </div>
+</div>
+
 <!-- HABILIDADES -->
-<section id="Habilidades"></section>
-<div class="Habilidades">
+<div class="Habilidades" id="Habilidades">
   <div class="container">
 
           <br/><h3 align="center">HABILIDADES</h3>
